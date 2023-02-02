@@ -1,10 +1,11 @@
 
 import './App.css';
 import Form from './Form';
+import FormPdf from './Pdf';
 
 function App() {
   return (
-    <div >
+    <div className='my-10 ' >
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -20,6 +21,7 @@ function App() {
         </a>
       </header> */}
       <Form/>
+      {/* <FormPdf/> */}
     </div>
   );
 }
